@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="boedhack"
+                fetch="https://github.com/boedhack" />
+
+        <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="boedhack" revision="11" clone-depth="1" />
+        <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="boedhack" revision="11" clone-depth="1" />
+
+</manifest>
