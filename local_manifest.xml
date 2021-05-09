@@ -3,8 +3,11 @@
 
         <remote name="boedhack"
                 fetch="https://github.com/boedhack" />
+        <remote name="pixel"
+                fetch="https://github.com/PixelExperience-Devices" />
 
         <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="boedhack" revision="11.0" clone-depth="1" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="boedhack" revision="11.0" clone-depth="1" />
+        <project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="pixel" revision="eleven" clone-depth="1" />
 
 </manifest>
