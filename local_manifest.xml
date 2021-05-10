@@ -31,8 +31,8 @@
         <remove-project name="platform/prebuilts/qemu-kernel" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="boedhack" revision="11.0" />
-        <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="boedhack" revision="11.0" />
-        <project path="kernel/xiaomi/mojito" name="PixelExperience-Devices/kernel_xiaomi_mojito" remote="pixel" revision="eleven" />
+        <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="github" revision="11.0" />
+        <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="github" revision="11.0" />
+        <project path="kernel/xiaomi/mojito" name="PixelExperience-Devices/kernel_xiaomi_mojito" remote="github" revision="eleven" />
 
 </manifest>
