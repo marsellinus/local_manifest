@@ -3,6 +3,8 @@
           
         <remote name="dblenk9"
                 fetch="https://github.com" />
+        <remote name="dblenk99"
+                fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
         <!-- Remove some projects -->
 	<remove-project name="device/common"/>
@@ -32,5 +34,6 @@
         <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="kernel/xiaomi/mojito" name="PixelExperience-Devices/kernel_xiaomi_mojito" remote="dblenk9" revision="eleven" />
+        <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
 
 </manifest>
