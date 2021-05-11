@@ -6,31 +6,6 @@
         <remote name="dblenk99"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
-        <!-- Remove some projects -->
-	<remove-project name="device/common"/>
-	<remove-project name="device/generic/arm64"/>
-	<remove-project name="device/generic/armv7-a-neon"/>
-	<remove-project name="device/generic/x86_64"/>
-	<remove-project name="device/generic/art"/>
-	<remove-project name="device/generic/car"/>
-	<remove-project name="device/generic/common"/>
-	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-	<remove-project name="device/generic/mini-emulator-x86"/>
-	<remove-project name="device/generic/mini-emulator-x86_64"/>
-	<remove-project name="device/generic/qemu"/>
-	<remove-project name="device/generic/trusty"/>
-	<remove-project name="device/generic/x86"/>
-        <remove-project name="platform/hardware/qcom/sdm845/bt" />
-        <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-        <remove-project name="platform/hardware/qcom/sdm845/display" />
-        <remove-project name="platform/hardware/qcom/sdm845/gps" />
-        <remove-project name="platform/hardware/qcom/sdm845/media" />
-        <remove-project name="platform/hardware/qcom/sdm845/thermal" />
-        <remove-project name="platform/hardware/qcom/sdm845/vr"/>
-        <remove-project name="kernel/tests" />
-        <remove-project name="platform/prebuilts/android-emulator" />
-        <remove-project name="platform/prebuilts/qemu-kernel" />
-
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11.0" />
