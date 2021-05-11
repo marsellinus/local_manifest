@@ -20,7 +20,6 @@
 	<remove-project name="device/generic/x86"/>
         <remove-project name="platform/hardware/qcom/sdm845/bt" />
         <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-        <remove-project name="platform/hardware/qcom/sdm845/display" />
         <remove-project name="platform/hardware/qcom/sdm845/gps" />
         <remove-project name="platform/hardware/qcom/sdm845/media" />
         <remove-project name="platform/hardware/qcom/sdm845/thermal" />
