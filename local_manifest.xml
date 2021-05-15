@@ -6,9 +6,9 @@
         <remote name="dblenk99"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
         <remote name="gapps9"
-                fetch="https://github.com/opengapps/" />
+                fetch="https://github.com/opengapps" />
         <remote name="gapps99"
-                fetch="https://gitlab.opengapps.org/opengapps/" />
+                fetch="https://gitlab.opengapps.org/opengapps" />
 
         <!-- Remove some projects -->
 	<remove-project name="crdroidandroid/android_packages_apps_Matlog"/>
@@ -20,7 +20,7 @@
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
 
         <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="gapps9" />
-        <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gapps99" />
-        <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="gapps99" />
+        <project path="vendor/opengapps/sources/arm" name="arm" revision="master" remote="gapps99" />
+        <project path="vendor/opengapps/sources/arm64" name="arm64" revision="master" remote="gapps99" />
 
 </manifest>
