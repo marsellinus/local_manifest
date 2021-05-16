@@ -14,7 +14,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11.0" />
-        <project path="kernel/xiaomi/mojito" name="PixelExperience-Devices/kernel_xiaomi_mojito" remote="dblenk9" revision="eleven" />
+        <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="eleven" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
 
         <!-- Sync gapps -->
