@@ -5,8 +5,6 @@
                 fetch="https://github.com" />
         <remote name="dblenk99"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-        <remote name="gapps999"
-                fetch="https://gitlab.com/ArianK16a" />
 
         <!-- Remove some projects -->
 	<remove-project name="crdroidandroid/android_packages_apps_Matlog"/>
@@ -16,8 +14,5 @@
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="silont" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
-
-        <!-- Sync gapps -->
-        <project path="vendor/gms" name="android_vendor_gms" revision="lineage-18.1" remote="gapps999" />
 
 </manifest>
