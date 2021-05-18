@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
         <remote name="dblenk99"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-        <remote name="gapps999"
+        <remote name="dblenk999"
                 fetch="https://gitlab.com/PixysOS" />
 
         <!-- Remove some projects -->
