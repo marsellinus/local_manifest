@@ -12,4 +12,7 @@
         <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="silont" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
 
+        <!-- patch  -->
+        <project path="vendor/havoc/build/soong" name="boedhack/vendor" remote="dblenk9" revision="havoc" />
+
 </manifest>
