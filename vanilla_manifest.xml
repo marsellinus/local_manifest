@@ -8,7 +8,7 @@
         <remote name="dblenk999"
                 fetch="https://gitlab.com/MindTheGapps" />
 
-        <! -- Remove project -->
+  <!-- Remove project -->
   <remove-project name="vendor/gapps" />
 
         <!-- Sync trees -->
