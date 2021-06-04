@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="dblenk9"
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/mojito" name="boedhack99/rec_mojito" remote="dblenk9" revision="11" />
+
+</manifest>
