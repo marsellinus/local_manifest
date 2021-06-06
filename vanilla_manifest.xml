@@ -10,7 +10,7 @@
                 revision="refs/heads/lineage-18.1" />
 
         <!-- Remove some projects -->
-	<remove-project name="NusantaraProject-ROM/android_packages_apps_Matlog"/>
+	<remove-project name="android_packages_apps_Matlog"/>
 
         <!-- Sync trees -->
         <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
