@@ -5,16 +5,21 @@
                 fetch="https://github.com" />
         <remote name="dblenk99"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-        <remote name="dblenk999"
-                fetch="https://gitlab.com/MindTheGapps" />
+        <remote name="bootctrl" 
+                fetch="https://github.com/LineageOS"
+                revision="refs/heads/lineage-18.1" />
+
+        <!-- Remove some projects -->
+	<remove-project name="NusantaraProject-ROM/android_packages_apps_Matlog"/>
 
         <!-- Sync trees -->
+        <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
         <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="dblenk9" revision="los-18.1" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11.0" />
         <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="silont" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
 
-        <!-- Sync gapps -->
-        <project path="vendor/gapps" name="vendor_gapps" remote="dblenk999" revision="rho" />
-
 </manifest>
+
+
+ 
