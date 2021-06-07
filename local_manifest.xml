@@ -8,7 +8,7 @@
                 revision="refs/heads/lineage-18.1" />
 
         <!-- Remove some projects -->
-	<remove-project path="system/core/mkbootimg"/>
+  <remove-project name="system/core/mkbootimg" />
 
         <!-- Sync trees -->
         <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
