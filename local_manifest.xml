@@ -12,5 +12,6 @@
         <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
         <!-- <project path="system/core/mkbootimg" name="Octavi-OS/platform_system_tools_mkbootimg" remote="dblenk9" revision="11" /> -->
         <project path="device/xiaomi/mojito" name="boedhack99/rec_mojito" remote="dblenk9" revision="11" />
+        <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="silont" />
 
 </manifest>
