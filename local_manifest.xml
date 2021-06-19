@@ -10,9 +10,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/device_xiaomi_mojito" remote="dblenk9" revision="11" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vendor_xiaomi_mojito" remote="dblenk9" revision="11" />
-        <project path="kernel/xiaomi/mojito" name="MumetNgoding/Kernel_Xiaomi_Mojito" remote="dblenk9" revision="silont" />
+        <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="dblenk9" revision="silont" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="dblenk9" revision="lineage-18.1" />
 
 </manifest>
-
-
