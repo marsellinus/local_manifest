@@ -14,7 +14,7 @@
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="dblenk9" revision="lineage-18.1" />
 
         <!-- Remove projects -->
-  <remove-project path="device/samsung/a50" />
-  <remove-project path="vendor/samsung/a50" />
+  <remove-project name="device/samsung/a50" />
+  <remove-project name="vendor/samsung/a50" />
 
 </manifest>
