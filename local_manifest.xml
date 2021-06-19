@@ -13,8 +13,4 @@
         <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="dblenk9" revision="silont" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="dblenk9" revision="lineage-18.1" />
 
-        <!-- Remove projects -->
-  <remove-project name="device/samsung/a50" />
-  <remove-project name="vendor/samsung/a50" />
-
 </manifest>
