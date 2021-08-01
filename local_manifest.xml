@@ -11,7 +11,7 @@
 
         <!-- Sync trees -->
         <!-- <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" /> -->
-        <project path="device/xiaomi/mojito" name="marsellinus/android_device_xiaomi_mojito" remote="dblenk9" revision="arrow" />
+        <project path="device/xiaomi/mojito" name="marsellinus/mojito_moment" remote="dblenk9" revision="awaken" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="dblenk99" revision="eleven" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="dblenk99" revision="eleven" />
