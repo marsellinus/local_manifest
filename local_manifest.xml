@@ -8,7 +8,7 @@
 
         <!-- Patch project -->
 	<remove-project name="android_packages_apps_SettingsIntelligence"/>
-        <project-path="packages/apps/SettingsIntelligence" name="marsellinus/android_packages_apps_SettingsIntelligence" remote="mojito" revision="11"/>
+        <project path="packages/apps/SettingsIntelligence" name="marsellinus/android_packages_apps_SettingsIntelligence" remote="mojito" revision="11"/>
 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="marsellinus/mojito_moment" remote="mojito" revision="11R" />
