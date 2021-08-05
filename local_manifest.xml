@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="mojito"
+                fetch="https://github.com" />
+        <remote name="marsell"
+                fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+
+        <!-- Patch project -->
+	<remove-project name="android_packages_apps_SettingsIntelligence"/>
+        <project-path="packages/apps/SettingsIntelligence" name="marsellinus/android_packages_apps_SettingsIntelligence" remote="mojito" revision="11"/>
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/mojito" name="marsellinus/mojito_moment" remote="mojito" revision="11R" />
+        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="R" />
+        <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="marsell" revision="eleven" />
+        <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="marsell" revision="eleven" />
+
+</manifest>
