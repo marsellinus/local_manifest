@@ -7,19 +7,19 @@
             fetch="https://github.com/ThankYouMario" />
 
    <!-- Device Trees-->
-        <project name="ArrowOs-Devices/android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="dot-11.0" /> 
+        <project name="ArrowOs-Devices/android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="razs" revision="dot-11.0" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="ArrowOs-Devices/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="11" />
+        <project name="ArrowOs-Devices/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="razs" revision="11" />
       
        
  <!-- Kernel Trees -->
-        <project name="ArrowOs-Devices/android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="11" />
+        <project name="ArrowOs-Devices/android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="razs" revision="11" />
         
       
   <!-- Clang & MiuiCamera -->
-        <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="prebuilts/clang/host/linux-x86/clang-sdllvm" remote="github" revision="ruby-12" clone-depth="1" />
-        <project name="ArrowOs/android_vendor_miuicamera" path="vendor/android_vendor_miuicamera" remote="github" revision="11" />
+        <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="prebuilts/clang/host/linux-x86/clang-sdllvm" remote="aospa" revision="ruby-12" clone-depth="1" />
+        <project name="ArrowOs/android_vendor_miuicamera" path="vendor/android_vendor_miuicamera" remote="razs" revision="11" />
 
 </manifest>
