@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-     
+     <remote name="razs"
+            fetch="https://github.com/rasenss"/>
+     <remote name="aospa"
+            fetch="https://github.com/ThankYouMario" />
+
    <!-- Device Trees-->
         <project name="ArrowOs-Devices/android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="dot-11.0" /> 
         
