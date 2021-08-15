@@ -8,7 +8,7 @@
 
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="marsellinus/mojito_moment" remote="mojito" revision="11-revengeos" />
+        <project path="device/xiaomi/mojito" name="marsellinus/mojito_moment" remote="mojito" revision="11-radiant" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="R" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="marsell" revision="eleven" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="marsell" revision="eleven" />
