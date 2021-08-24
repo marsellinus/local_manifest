@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 
 	<!-- Device trees -->
-    	<project name="marsellinus/mojito_momento" path="device/xiaomi/mojito" remote="mojito" revision="11-radiant" />
+    	<project name="marsellinus/mojito_moment" path="device/xiaomi/mojito" remote="mojito" revision="11-radiant" />
     	<project name="marsellinus/mojito-moment-common" path="device/xiaomi/sm6150-common" remote="mojito" revision="eleven" />
 	
 	<!-- vendor trees -->
