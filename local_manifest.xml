@@ -12,7 +12,11 @@
    	 <project name="marsellinus/mojito_moment_vendor" path="vendor/xiaomi/mojito" remote="mojito" revision="main" />
    	 <project name="marsellinus/mojito_moment_vendor_common" path="vendor/xiaomi/sm6150-common" remote="mojito" revision="main" />
 	
-	<!-- Kdragon proton clang -->
+	<!-- patch rom -->
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
+	
+	<!-- Kernel tree -->
+    	<project name="xiaomi-sdm678/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="mojito" revision="11" />
+	
 	
 </manifest>
