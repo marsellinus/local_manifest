@@ -7,7 +7,6 @@
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
         <!-- Sync trees -->
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
         <project path="device/xiaomi/mojito" name="marsellinus/mojito_dt" remote="mojito" revision="11-bianca" />
  	<project name="xiaomi-sdm678/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="mojito" revision="11" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="marsell" revision="eleven" />
