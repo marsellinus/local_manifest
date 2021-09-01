@@ -3,6 +3,9 @@
           
         <remote name="mojito"
                 fetch="https://github.com" />
+        <remote name="bootctrl" 
+                fetch="https://github.com/LineageOS"
+                revision="refs/heads/lineage-18.1" />
 
 
 	<!-- tool clang -->
@@ -12,5 +15,6 @@
         <project path="device/xiaomi/mojito" name="marsellinus/mojito-dt" remote="mojito" revision="11-exthm" />
         <project path="vendor/xiaomi/mojito" name="marsellinus/mojito_vr" remote="mojito" revision="main" />
 	<project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="CAF-upstream" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" />
 
 </manifest>
