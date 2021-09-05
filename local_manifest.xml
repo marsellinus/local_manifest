@@ -3,8 +3,6 @@
           
         <remote name="mojito"
                 fetch="https://github.com" />
-        <remote name="marsell"
-                fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
         <remote name="bootctrl" 
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-18.1" />
@@ -13,10 +11,9 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
           
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="marsellinus/mojito-dt" remote="mojito" revision="11-stellar" />
+        <project path="device/xiaomi/mojito" name="marsellinus/device-tree" remote="mojito" revision="11-stellar" />
+        <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="mojito" revision="main" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="CAF-upstream" />
-        <project path="vendor/xiaomi/mojito" name="zhantech/vendor_xiaomi_mojito" remote="mojito" revision="eleven" />
-        <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="marsell" revision="eleven" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" />
           
 
