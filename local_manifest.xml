@@ -6,9 +6,6 @@
         <remote name="bootctrl" 
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-18.1" />
-
-         <!-- tool clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
           
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="marsellinus/device-tree" remote="mojito" revision="11-superiorr" />
