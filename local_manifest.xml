@@ -8,7 +8,7 @@
 
         <!-- Patch project -->
 	<remove-project name="android_packages_apps_SettingsIntelligence"/>
-        <project path="packages/apps/SettingsIntelligence" name="marsellinus/android_packages_apps_SettingsIntelligence" remote="mojito" revision="11"/>
+        <project path="packages/apps/SettingsIntelligence" name="marsellinus/android_packages_apps_SettingsIntelligence" remote="mojito" revision="lineage-18.1"/>
 
         <!-- Sync trees -->
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
