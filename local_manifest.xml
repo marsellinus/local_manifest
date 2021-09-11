@@ -7,9 +7,6 @@
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-18.1" />
 
-         <!-- tool clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
-          
          <!-- Patch project -->
          <remove-project name="android_vendor_qcom_opensource_cryptfs_hw"/>
          <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="mojito" revision="lineage-18.1"/>
