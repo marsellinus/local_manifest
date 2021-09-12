@@ -7,11 +7,8 @@
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-18.1" />
 
-         <!-- Patch project -->
-         <remove-project name="android_vendor_qcom_opensource_cryptfs_hw"/>
-         <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="mojito" revision="lineage-18.1"/>
-          
          <!-- Sync trees -->
+         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mojito" revision="master" />
          <project path="device/xiaomi/mojito" name="marsellinus/device-tree" remote="mojito" revision="11-superior" />
          <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="mojito" revision="main" />
          <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="R" />
